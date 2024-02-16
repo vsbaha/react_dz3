@@ -10,6 +10,7 @@ const Form = (props) => {
             setValue('')
         }}>
             <input type="text"placeholder="Введите текст" className="input" value={value} onChange={e => setValue(e.target.value)}/>
+            <button type="submit">Добавить</button>
         </form>
     );
 };
